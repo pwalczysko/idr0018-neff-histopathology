@@ -3,6 +3,8 @@ continue: true
 transfer: "ln_s"
 skip: "checksum"
 output: "yaml"
+parallel_fileset: "8"
+parallel_upload: "8"
 path: "idr0018-experimentA-filePaths.tsv"
 columns:
     - target
